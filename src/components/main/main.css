@@ -1,0 +1,12 @@
+.main{
+    margin: 100px auto;
+    padding: 20px 10px;
+}
+
+.mainbtndiv{
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+    padding: 20px autp;
+    gap: 40px;
+}

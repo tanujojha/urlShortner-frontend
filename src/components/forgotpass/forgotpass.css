@@ -1,0 +1,16 @@
+.fopa{
+    width: 60%;
+    margin: 50px auto;
+    padding: 40px 30px;
+}
+
+.fopa .fpainpdiv {
+    text-align: left;
+    padding: 30px 10px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.fpainpdiv input{
+    border: 2px solid rgb(37, 37, 109);
+}

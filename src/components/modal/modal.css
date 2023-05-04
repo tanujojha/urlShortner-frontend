@@ -1,0 +1,85 @@
+
+
+.topdivmsgbox{
+    /* position: relative; */
+    background-color: rgb(205, 212, 218);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -10px;
+    margin-left: -10px;
+    padding-left: 10px;
+    width: 500px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+
+.newmsg{
+    /* margin-top: -10px; */
+    padding-top: 10px;
+    font-weight: 550;
+    /* width: 800px; */
+    /* padding-bottom: 5px; */
+}
+
+.closemsgbox{
+   cursor: pointer;
+   font-size: 30px;
+   margin-right: 5px;
+}
+
+.toinp, .subjectinp{
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+   
+}
+
+.botmmsgndiv{
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+#sendmsgbtn{
+    border-radius: 30px;
+    text-transform: capitalize;
+    font-size: 15px;
+    
+}
+
+.actionicons{
+    display: flex;
+    gap: 10px;
+    margin-left: 15px;
+    align-items: center;
+}
+
+.actionicons > *:hover{
+    cursor: pointer;
+    background-color: rgb(212, 219, 224);
+    border-radius: 50%;
+}
+
+.delmsgicon{
+    position: absolute;    
+    right: 20px;
+    margin-top: 5px;
+}
+
+.delmsgicon:hover{
+    cursor: pointer;
+    color: red;
+}
+
+.shorturldiv{
+    text-align: center;
+}
+
+.shorturlp{
+    color: rgb(171, 201, 228);
+    cursor: pointer;
+}
+
+.shorturlp:hover{
+    color: aqua;
+}

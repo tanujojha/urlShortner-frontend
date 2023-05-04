@@ -1,0 +1,29 @@
+.navbar{
+    background-color: rgb(214, 234, 251);
+}
+
+.navbarinner{
+    width: 95%;
+    margin: 2px auto;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+.navbarinner > ul{
+    display: flex;
+    gap: 30px;
+    padding: 5px 10px;
+    margin: 5px 0;
+    list-style: none;
+    
+}
+
+
+.navlink{
+    text-decoration: none;
+    color: rgb(29, 96, 154);
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+

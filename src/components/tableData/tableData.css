@@ -1,0 +1,18 @@
+.tabledata{
+    width: 90%;
+    margin: 40px auto;
+    /* border: 1px solid black; */
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.lurlhead{
+    width: 50%;
+}
+
+.tchead{
+    width: 10%;
+}
