@@ -1,3 +1,3 @@
-export const clientURL = "http://localhost:3000";
+export const clientURL = "https://craurlshortner.netlify.app";
 
-export const serverUrl = "https://craurlshortner.netlify.app";
+export const serverUrl = "https://url-shortner-backend-nu.vercel.app";
